@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.scrabblewordgen.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kotlin begins"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Kotlin @android:string/paste_as_plain_text" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the tiles"
+        android:inputType="textCapCharacters|textPersonName"
+        android:padding="20dp"
+        android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+
+</LinearLayout>
